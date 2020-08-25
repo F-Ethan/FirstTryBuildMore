@@ -10,7 +10,7 @@ class Header extends Component {
       <div className="container">
         <nav className='navbar navbar-expand-lg shadow-lg  navbar-dark rounded '>
           {/* <img src={Ethan} width="50px" className="rounded"></img> */}
-          <div className="h5 ml-3">Ethan Ferrier</div>
+          <div className="h5 ml-3">Build More</div>
           <div className='d-flex flex-grow-1 justify-content-end'>
             <button
               className='navbar-toggler'

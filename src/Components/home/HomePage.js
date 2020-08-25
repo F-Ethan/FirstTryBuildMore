@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
 import Image1 from '../../pictures/Ethan.png';
-import homepage2 from '../../pictures/homepage2.jpg'
-// import Image2 from '../../pictures/Ethan1.jpg';
-// import Image3 from '../../pictures/Ethan2.jpg';
-// import Image4 from '../../pictures/Ethan3.jpg';
-// import Image5 from '../../pictures/Ethan4.jpg';
+import homepage2 from '../../photos/homepage.jpg'
 import ReactPhoto from '../../pictures/React3.jpg'
 import python from '../../pictures/python.jpg'
 import django from '../../pictures/django.jpg'
