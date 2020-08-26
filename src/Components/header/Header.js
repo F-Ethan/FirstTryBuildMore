@@ -7,7 +7,7 @@ import './Header.css';
 class Header extends Component {
   render() {
     return (
-      <div className="container">
+      <div className='container rounded'>
         <nav className='navbar navbar-expand-lg shadow-lg  navbar-dark rounded '>
           {/* <img src={Ethan} width="50px" className="rounded"></img> */}
           <div className="h5 ml-3">Build More</div>
@@ -21,7 +21,9 @@ class Header extends Component {
               aria-expanded='false'
               aria-label='Toggle navigation'
             >
-              <span className='navbar-toggler-icon'></span>
+              <span className='navbar-toggler-icon bg-secondary rounded'>
+                {/* <i class="fas fa-bars" style={{ "color": "#fff", "font-size": 28 }}></i> */}
+              </span>
             </button>
           </div>
 

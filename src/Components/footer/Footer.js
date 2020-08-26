@@ -22,10 +22,10 @@ const Footer = () => {
           <div className='col-md-4 col-sm-6'>
             <h4> Contact Info </h4>
             <ul className='list-unstyled'>
-              <li> Ethan Ferrier </li>
+              <li> Build More </li>
               <li> Cottonwood, CA</li>
-              <li> 530-983-3730</li>
-              <li> Fethanerrier@gmail.com </li>
+              <li> 530 215-0874</li>
+              <li> Letsbuildmore@gmail.com </li>
             </ul>
           </div>
           {/* column 2 */}
