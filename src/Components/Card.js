@@ -20,7 +20,6 @@ export class Card extends Component {
                   <div className='col-12 mt-3'>
                     <div className='card border-0'>
                       <div className='card-horizontal'>
-                        {/* {!side ? ( */}
                         <div className='img-square-wrapper col-12 col-lg-3'>
                           <img
                             src={card.img}
@@ -28,20 +27,10 @@ export class Card extends Component {
                             alt='list item'
                           ></img>
                         </div>
-                        {/* ) : null} */}
                         <div className='card-body'>
                           <h5 className='card-title'>{card.title}</h5>
                           <p className='card-text'>{card.about}</p>
                         </div>
-                        {/* {side ? (
-                          <div className='img-square-wrapper col-12 col-lg-3'>
-                            <img
-                              src={card.img}
-                              className='card-img-top img-fluid'
-                              alt='list item'
-                            ></img>
-                          </div>
-                        ) : null} */}
                       </div>
                     </div>
                   </div>

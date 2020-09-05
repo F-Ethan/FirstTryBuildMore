@@ -1,12 +1,28 @@
 import React, { Component } from 'react';
-import Image1 from '../../pictures/Ethan.png';
-import homepage2 from '../../photos/homepage.jpg'
-import ReactPhoto from '../../pictures/React3.jpg'
-import python from '../../pictures/python.jpg'
-import django from '../../pictures/django.jpg'
-import angular from '../../pictures/angular.png'
-import javascript from '../../pictures/javascript.png'
-import bethelTech from '../../pictures/bethelTech.png'
+import addition1 from '../../photos/addition1.jpg';
+import addition2 from '../../photos/addition2.jpg';
+import addition3 from '../../photos/addition3.jpg';
+import addition4 from '../../photos/addition4.jpg';
+import addition5 from '../../photos/addition5.jpg';
+import addition6 from '../../photos/addition6.jpg';
+import deck1 from '../../photos/deck1.jpg';
+import deck2 from '../../photos/deck2.jpg';
+import deck3 from '../../photos/deck3.jpg';
+import deck4 from '../../photos/deck4.jpg';
+import deck5 from '../../photos/deck5.jpg';
+import deck6 from '../../photos/deck6.jpg';
+import deck7 from '../../photos/deck7.jpg';
+import deck8 from '../../photos/deck8.jpg';
+import deck9 from '../../photos/deck9.jpg';
+import exterer1 from '../../photos/exterer1.jpg';
+import interer1 from '../../photos/interer1.jpg';
+import interer2 from '../../photos/interer2.jpg';
+import roof1 from '../../photos/roof1.jpg';
+import roof2 from '../../photos/roof2.jpg';
+import roof3 from '../../photos/roof3.jpg';
+import roof4 from '../../photos/roof4.jpg';
+
+
 import Card from '../Card';
 import './Home.css';
 
@@ -14,7 +30,7 @@ import './Home.css';
 const FeaturedCards = [
   {
     title: 'Full stack Developer',
-    img: Image1,
+    img: [addition1, addition2, addition3, addition4, addition5, addition6],
     about:
       "As a Full Stack web developer I am always looking for ways to improve my abilities. From going to School at Bethel Tech, \
     to watch tutorials on YouTube. Every year My abilities grow and my ambition grows right along with it.",
@@ -22,7 +38,7 @@ const FeaturedCards = [
   },
   {
     title: 'student',
-    img: bethelTech,
+    img: [deck1, deck2, deck3, deck4, deck5, deck6, deck7, deck8, deck9],
     about:
       "As a student at Bethel Tech, I am learning how to bring a Project from the design phase all the way through development \
       and into production. I am learning about AWS, NodeJS, Angular, React, Express and much much more. ",
@@ -33,7 +49,7 @@ const FeaturedCards = [
 const Cards = [
   {
     title: 'Python',
-    img: python,
+    img: [exterer1],
     about:
       "In January 2019, I took 'Harvard's CS50 Web Programing with Python & Javascript' Online. \
       The Class took us through the basics of programming. It started in C and then worked its way into \
@@ -44,7 +60,7 @@ const Cards = [
   },
   {
     title: 'Django',
-    img: django,
+    img: [interer1, interer2],
     about:
       "Django is my favorite Framework in Python. Django is a powerful server side Framework that handles all requests.\
       I got into Django because of how powerful of a framework it was. It takes longer to set up than Flask but it makes \
@@ -53,7 +69,7 @@ const Cards = [
   },
   {
     title: 'Javascript',
-    img: javascript,
+    img: [roof1, roof2, roof3, roof4],
     about:
       "JavaScript is the first Programing Language I learned when I was still in high school. \
       I loved how simple the language was to learn and how powerful of a language it is. After Learning the \
@@ -64,7 +80,7 @@ const Cards = [
   },
   {
     title: 'React',
-    img: ReactPhoto,
+    img: [],
     about:
       "It was not until I was a student at Bethel Tech that I even heard of React or Angular. At the time I had already \
       Learned Python and Django but even after learning these I still could not get my front end to look the way I wanted \
@@ -76,7 +92,7 @@ const Cards = [
   },
   {
     title: 'Angular',
-    img: angular,
+    img: [],
     about:
       "Angular is one of the last Frameworks I learned in School. By the time we got to Angular I was Already building complex Applications \
       with both front and back ends that would dynamically load and update when anything changes. However the more I learned about Angular the more\
@@ -96,7 +112,7 @@ export class HomePage extends Component {
     return (
       <div className='container shadow-lg mt-3 p-3 rounded'>
         <div className="pitcture">
-          <img className="d-block w-100" src={homepage2} alt="First slide"></img>
+          <img className="d-block w-100" src={addition5} alt="First slide"></img>
 
           {/* <div className='card text-center m-3 shadow p-3 mb-5 rounded'></div> */}
           <div className="d-none d-lg-block centered text-center bg-clear rounded">
@@ -109,30 +125,12 @@ export class HomePage extends Component {
         </div>
 
         <div className='d-lg-none card text-center m-3 shadow p-3 mb-5 rounded '>
-          <div className="card-header h3 mb-2">Ethan Ferrier</div>
+          <div className="card-header h3 mb-2">Build More</div>
           <div className="h4 line-height">
-            Welcome to my portfolio website. I am so glad you have taken the time and
-            intrest to come here and learn more about me.
+            Welcome to our portfolio website. I am so glad you have taken the time and
+            intrest to come here and learn more about us.
           </div>
         </div>
-
-        {/* <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img class="d-block w-100" src={homepage2} alt="First slide"></img>
-              <div class="carousel-caption d-none d-md-block mb-3 position-center">
-                <div className="h3">Ethan Ferrier</div>
-                <div className="h5">
-                  Welcome to my portfolio website. I am so glad you have taken then time and 
-                  intrest to come here and learn more about me. 
-                
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> */}
 
         <Card Cards={FeaturedCards} Title='Featured' />
         <Card Cards={Cards} Title='More' />
