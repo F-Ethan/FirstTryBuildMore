@@ -29,26 +29,28 @@ import './Home.css';
 
 const FeaturedCards = [
   {
-    title: 'Full stack Developer',
+    title: 'Additions',
     img: [addition1, addition2, addition3, addition4, addition5, addition6],
     about:
       "As a Full Stack web developer I am always looking for ways to improve my abilities. From going to School at Bethel Tech, \
     to watch tutorials on YouTube. Every year My abilities grow and my ambition grows right along with it.",
-    blogId: '1',
+    blogId: 'addition',
+    blogIdHref: '#addition',
   },
   {
-    title: 'student',
+    title: 'decks',
     img: [deck1, deck2, deck3, deck4, deck5, deck6, deck7, deck8, deck9],
     about:
       "As a student at Bethel Tech, I am learning how to bring a Project from the design phase all the way through development \
       and into production. I am learning about AWS, NodeJS, Angular, React, Express and much much more. ",
-    blogId: '2',
+    blogId: 'deck',
+    blogIdHref: '#deck',
   },
 ];
 
 const Cards = [
   {
-    title: 'Python',
+    title: 'Exterer',
     img: [exterer1],
     about:
       "In January 2019, I took 'Harvard's CS50 Web Programing with Python & Javascript' Online. \
@@ -56,19 +58,21 @@ const Cards = [
       JavaScript. After JavaScrip we Learned the basics of Python. Then We went into how to use a simple \
       framework like Flask and for the Final in the class we had to build a paper trading Stock market App. \
       After finishing the class I taught myself how to use Django and Beautiful Soup.",
-    blogId: '3',
+    blogId: 'exterer',
+    blogIdHref: '#exterer',
   },
   {
-    title: 'Django',
+    title: 'Interer',
     img: [interer1, interer2],
     about:
       "Django is my favorite Framework in Python. Django is a powerful server side Framework that handles all requests.\
       I got into Django because of how powerful of a framework it was. It takes longer to set up than Flask but it makes \
       handling authentication and complexe requests almost too easy.",
-    blogId: '4',
+    blogId: 'interer',
+    blogIdHref: '#interer',
   },
   {
-    title: 'Javascript',
+    title: 'Roofs',
     img: [roof1, roof2, roof3, roof4],
     about:
       "JavaScript is the first Programing Language I learned when I was still in high school. \
@@ -76,7 +80,8 @@ const Cards = [
       Basics of JavaScript I found that I loved to program, However I could not figure out how to make my \
       applications look even remotely nice. So I got discouraged. What I did not know is that I needed to learn a lot\
       more.",
-    blogId: '5',
+    blogId: 'roof',
+    blogIdHref: '#roof',
   },
   {
     title: 'React',
@@ -89,6 +94,7 @@ const Cards = [
       web applications without knowing that they were using whole frameworks I had never heard of. Now as I build complexe\
       applications using React and Angular I am quite proud of what I can do.",
     blogId: '6',
+    blogIdHref: '#6',
   },
   {
     title: 'Angular',
@@ -100,6 +106,7 @@ const Cards = [
       It also come with so much functionality right from the start, making it easy to Authenticate your users and and handel the routing within \
       your applications",
     blogId: '7',
+    blogIdHref: '#7',
   },
 ];
 
