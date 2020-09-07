@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import stock from '../../photos/stockConstruction (15).jpg';
 import addition1 from '../../photos/addition1.jpg';
 import addition2 from '../../photos/addition2.jpg';
 import addition3 from '../../photos/addition3.jpg';
@@ -119,7 +120,7 @@ export class HomePage extends Component {
     return (
       <div className='container shadow-lg mt-3 p-3 rounded'>
         <div className="pitcture">
-          <img className="d-block w-100" src={addition5} alt="First slide"></img>
+          <img className="d-block w-100" src={stock} alt="First slide"></img>
 
           {/* <div className='card text-center m-3 shadow p-3 mb-5 rounded'></div> */}
           <div className="d-none d-lg-block centered text-center bg-clear rounded">
