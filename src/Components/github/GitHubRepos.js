@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
-import project from '../../pictures/homepage1.jpg';
 
 const GitHubRepos = () => {
   function importAll(r) {

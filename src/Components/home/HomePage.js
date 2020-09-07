@@ -84,31 +84,6 @@ const Cards = [
     blogId: 'roof',
     blogIdHref: '#roof',
   },
-  {
-    title: 'React',
-    img: [],
-    about:
-      "It was not until I was a student at Bethel Tech that I even heard of React or Angular. At the time I had already \
-      Learned Python and Django but even after learning these I still could not get my front end to look the way I wanted \
-      it too. However as I started to learn about react I relived that one of my problems was that what I was comparing my work to\
-      was using advanced Javascript languages to control the state of their code. I was trying to make my projects look and act like\
-      web applications without knowing that they were using whole frameworks I had never heard of. Now as I build complexe\
-      applications using React and Angular I am quite proud of what I can do.",
-    blogId: '6',
-    blogIdHref: '#6',
-  },
-  {
-    title: 'Angular',
-    img: [],
-    about:
-      "Angular is one of the last Frameworks I learned in School. By the time we got to Angular I was Already building complex Applications \
-      with both front and back ends that would dynamically load and update when anything changes. However the more I learned about Angular the more\
-      I came to love the Framework. To me Angular seems fairly similar to Django, It has a very clean layout that makes it easy to organize your code. \
-      It also come with so much functionality right from the start, making it easy to Authenticate your users and and handel the routing within \
-      your applications",
-    blogId: '7',
-    blogIdHref: '#7',
-  },
 ];
 
 
